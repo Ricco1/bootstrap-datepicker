@@ -23,7 +23,7 @@
     } else if (typeof exports === 'object') {
         factory(require('jquery'));
     } else {
-        factory(jQuery);
+        factory(jQuery || AVSJQ);
     }
 }(function($, undefined){
 	function UTCDate(){
